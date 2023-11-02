@@ -135,7 +135,6 @@ jobs:
             {{- else }}
             <h3>Trivy Returned Empty Report</h3>
             {{- end }}
-            EOF
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
